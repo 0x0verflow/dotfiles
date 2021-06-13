@@ -14,12 +14,14 @@ In case you want to be as cool as I am (or my btrfs crashes again and I need to 
 - dunst
 - dmenu2
 - urxvt -> rxvt-unicode
+- Iosevka font
 
 ➡️ To install all needed packages on Arch Linux:
 ```bash
 # pacman -S xorg i3-gaps feh picom i3status-rust conky xbanish dunst rxvt-unicode
-# yay -S dmenu2
+# yay -S dmenu2 ttf-iosevka ttf-material-icons-git
 ```
+(YAY is a package manager for AUR, if you don't know what I'm trying to do here.)
 
 ### ✨ For full functionality
 - firefox/qutebrowser (awww)
