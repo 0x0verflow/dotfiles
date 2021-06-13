@@ -1,0 +1,22 @@
+config_version: 2
+settings:
+  colors.tabs.bar.bg:
+    global: "#404040"
+  colors.tabs.even.bg:
+    global: "#404040"
+  colors.tabs.even.fg:
+    global: white
+  colors.tabs.odd.bg:
+    global: "#404040"
+  colors.tabs.odd.fg:
+    global: white
+  tabs.indicator.width:
+    global: 0
+  tabs.padding:
+    global:
+      bottom: 10
+      left: 10
+      right: 10
+      top: 10
+  tabs.title.alignment:
+    global: center
