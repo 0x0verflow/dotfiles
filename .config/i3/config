@@ -263,7 +263,7 @@ bar {
 exec --no-startup-id picom --daemon --experimental-backends
 
 # Displaying wallpaper using feh because i3 is VERY LIGHTWEIGHT!!!!
-exec_always feh --bg-scale /home/josh/Pictures/Wallpapers/abstract4.jpg
+exec_always feh --bg-scale <BACKGROUND PATH HERE!>
 
 # Conky on desktop
 exec_always --no-startup-id conky
