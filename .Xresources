@@ -1,0 +1,51 @@
+! special
+*.foreground:   #ffffff
+*.background:   #242526
+*.cursorColor:  #ffffff
+
+! black
+*.color0:       #282a2e
+*.color8:       #373b41
+
+! red
+*.color1:       #d14747
+*.color9:       #e78787
+
+! green
+*.color2:       #e2d041
+*.color10:      #e1dca0
+
+! yellow
+*.color3:       #f9934d
+*.color11:      #f5d79d
+
+! blue
+*.color4:       #028dff
+*.color12:      #83c5fd
+
+! magenta
+*.color5:       #852fff
+*.color13:      #b99ef3
+
+! cyan
+*.color6:       #5fe6d5
+*.color14:      #93fff0
+
+! white
+*.color7:       #808080
+*.color15:      #d6d6d6
+
+
+! remove scrollbar
+URxvt.scrollBar: false
+
+! padding
+URxvt.internalBorder: 10
+
+! font
+URxvt.font: xft:Iosevka:size=12:antialias=true
+URxvt.boldFont: xft:Iosevka:bold:size=12:antialias=true
+
+! opacity for picom blur (replace with URxvt blur if you don't use picom)
+URxvt.depth: 32
+URxvt.background: [75]#000000
